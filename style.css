@@ -1,0 +1,74 @@
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 6px;
+}
+
+.box {
+  background: yellow;
+  text-align: center;
+  padding: 12px 0;
+  font-weight: bold;
+}
+.b1{
+    grid-column: span 12;
+}
+.b2{
+    grid-column: span 6;
+}
+.b3{
+    grid-column: span 6;
+}
+.b4{
+    grid-column: span 4;
+}
+.b5{
+    grid-column: span 4;
+}
+.b6{
+    grid-column: span 4;
+}
+.b7{
+    grid-column: span 3;
+}
+.b8{
+    grid-column: span 3;
+}
+.b9{
+    grid-column: span 3;
+}
+.b10{
+    grid-column: span 3;
+}
+.b11{
+    grid-column: span 2;
+}
+.b12{
+    grid-column: span 2;
+}
+.b13{
+    grid-column: span 2;
+}
+.b14{
+    grid-column: span 2;
+}
+.b15{
+    grid-column: span 2;
+}
+.b16{
+    grid-column: span 2;
+}
+.b17,
+.b18,
+.b19,
+.b20,
+.b21,
+.b22,
+.b23,
+.b24,
+.b25,
+.b26,
+.b27,
+.b28 {
+  grid-column: span 1;
+}
